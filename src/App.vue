@@ -21,7 +21,7 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <router-link to="/bug/add">添加Bug</router-link>
+
                         </li>
                     </ul>
                 </div>
