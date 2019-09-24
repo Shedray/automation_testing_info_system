@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import bugs from './components/bugs'
+import ScriptTestLog from "@/components/ScriptTestLog";
 import add from "@/components/add";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap'
@@ -15,7 +16,13 @@ const router=new VueRouter({
             path:"/",component:bugs
         },
         {
-            path: '/bug/add',component: add
+            path:"/scriptbug",component:bugs
+        },
+        {
+            path: '/scriptbug/add',component: add
+        },
+        {
+            path: '/scriptest',component: ScriptTestLog
         }
     ]
 })

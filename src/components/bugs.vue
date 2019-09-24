@@ -4,11 +4,11 @@
         <h1 class="page-header">
             Bug记录
             <div class="nav navbar-nav navbar-right" style="padding-right: 20px">
-                    <router-link to="/bug/add" class="btn btn-primary">添加Bug</router-link>
+                    <router-link to="/scriptbug/add" class="btn btn-primary">添加记录</router-link>
             </div>
         </h1>
         <alert v-if="alert" v-bind:message="alert"></alert>
-        <table class="table table-striped">
+        <table class="table table-striped table-hover">
             <thead>
             <tr>
                 <th>bug主题</th>
