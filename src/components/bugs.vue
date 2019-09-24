@@ -2,7 +2,10 @@
   <div class="bugs">
     <div class="container">
         <h1 class="page-header">
-            Bug记录系统
+            Bug记录
+            <div class="nav navbar-nav navbar-right" style="padding-right: 20px">
+                    <router-link to="/bug/add" class="btn btn-primary">添加Bug</router-link>
+            </div>
         </h1>
         <alert v-if="alert" v-bind:message="alert"></alert>
         <table class="table table-striped">

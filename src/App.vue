@@ -19,9 +19,12 @@
                         </li>
                         <li> <router-link to="/about">关于我们</router-link></li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" style="padding-right: 10px">
                         <li>
-                            <router-link to="/bug/add">添加Bug</router-link>
+                            <router-link to="/login">登录</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/login">注册</router-link>
                         </li>
                     </ul>
                 </div>
